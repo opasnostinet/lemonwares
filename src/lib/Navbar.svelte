@@ -1,6 +1,6 @@
 <div>
 	<div>
-		<img src="" alt="logo" />
+		<img src="logo/logo.png" alt="logo" />
 	</div>
 	<div>
 		<ul>
@@ -11,6 +11,6 @@
 			<li>Account</li>
 		</ul>
 	</div>
-	<img src="" alt="pnone" />
+	<img src="icon/phone.svg" alt="pnone" />
 	<a href="tel:+2349067322844">+2349067322844</a>
 </div>

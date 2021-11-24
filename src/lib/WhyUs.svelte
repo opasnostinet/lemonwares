@@ -7,17 +7,17 @@
 	</p>
 </div>
 <div>
-	<img src="" alt="cPanel" />
-	<img src="" alt="imunifi" />
-	<img src="" alt="LiteSpeed" />
-	<img src="" alt="Softaculous" />
-	<img src="" alt="WordPress" />
-	<img src="" alt="CloudFlare" />
+	<img src="logo/cpanel.png" alt="cPanel" />
+	<img src="logo/imunify360.png" alt="imunifi" />
+	<img src="logo/litespeed.png" alt="LiteSpeed" />
+	<img src="logo/softaculous.png" alt="Softaculous" />
+	<img src="logo/word-press.png" alt="WordPress" />
+	<img src="logo/cloudflare.png" alt="CloudFlare" />
 </div>
 <div>
 	<ul>
 		<li>
-			<img src="" alt="uptime" />
+			<img src="icon/clock.svg" alt="uptime" />
 			<h4>99,9% Uptime</h4>
 			<p>
 				We Keep Your Web build Online 24x7x365. Downtime not only costs you lost visitors but also
@@ -25,7 +25,7 @@
 			</p>
 		</li>
 		<li>
-			<img src="" alt="web-hosting" />
+			<img src="icon/setting.svg" alt="web-hosting" />
 			<h4>Blazing Fast Web Hosting</h4>
 			<p>
 				We Keep Your Web build Online 24x7x365. Downtime not only costs you lost visitors but also
@@ -33,7 +33,7 @@
 			</p>
 		</li>
 		<li>
-			<img src="" alt="certificates" />
+			<img src="icon/certificate.svg" alt="certificates" />
 			<h4>Free SSL Certificates</h4>
 			<p>
 				We Keep Your Web build Online 24x7x365. Downtime not only costs you lost visitors but also
@@ -41,7 +41,7 @@
 			</p>
 		</li>
 		<li>
-			<img src="" alt="support" />
+			<img src="icon/support.svg" alt="support" />
 			<h4>24x7 Friendly Support</h4>
 			<p>
 				We Keep Your Web build Online 24x7x365. Downtime not only costs you lost visitors but also

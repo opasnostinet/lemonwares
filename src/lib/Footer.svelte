@@ -1,5 +1,5 @@
 <div>
-	<img src="" alt="logo" />
+	<img src="logo/logo.png" alt="logo" />
 	<p>
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolores perferendis doloremque odio
 		assumenda natus a molestias, expedita aliquam illo accusantium tenetur ad unde mollitia fugit
@@ -40,5 +40,5 @@
 	</ul>
 </div>
 <div>
-  <div>Built by Jeremiah with <img src="" alt="love"> in Lagos. Copyright 2021</div>
+  <div>Built by Jeremiah with <img src="icon/heart.svg" alt="love"> in Lagos. Copyright 2021</div>
 </div>
