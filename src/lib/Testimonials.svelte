@@ -1,4 +1,4 @@
-<img src="logo/quote-mark.svg" alt="quotes" />
+<img src="quote-mark.svg" alt="quotes" />
 <h2>Real Stories from Real Customers</h2>
 <div>Get inspired by these stories.</div>
 <div>
