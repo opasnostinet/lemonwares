@@ -16,24 +16,27 @@
 <style>
 	nav {
 		display: flex;
-		justify-content: flex-start;
 		margin: 40px 110px;
-		align-items:center;
+		align-items: center;
 	}
 
 	ul {
 		display: flex;
-		justify-content: center;
+		flex-grow: 1;
 		list-style-type: none;
-		width: 100%;
 		padding: 0;
+		gap: 4.4%;
+	}
+
+	ul li:first-child {
+		margin-right: auto;
+	}
+
+	ul li:last-child {
+		margin-left: auto;
 	}
 
 	.logo {
 		display: block;
-	}
-
-	ul:first-child {
-  
 	}
 </style>
