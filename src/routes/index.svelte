@@ -12,6 +12,15 @@
 <Hero/>
 <WhyUs/>
 <Pricing/>
-<Testimonials/>
+<div class="testimonials-wrapper"><Testimonials/></div>
 <Cta/>
 <Footer/>
+
+<style>
+.testimonials-wrapper{
+	margin-left: 142px;
+	margin-right: 104px;
+	position: relative;
+}
+
+</style>

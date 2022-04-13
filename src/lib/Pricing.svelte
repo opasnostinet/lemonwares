@@ -72,10 +72,10 @@
 		<TabGroup tabNames={['Basic', 'Premium']} />
 	</div>
 	<div class="tariff-wrapper">
-	{#each tariffList as tariff}
-		<Tariff {tariff} />
-	{/each}
-</div>
+		{#each tariffList as tariff}
+			<Tariff {tariff} />
+		{/each}
+	</div>
 </section>
 
 <style>
@@ -92,7 +92,7 @@
 		margin-bottom: 40px;
 	}
 
-	.tariff-wrapper{
+	.tariff-wrapper {
 		display: flex;
 		gap: 40px;
 	}
