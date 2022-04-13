@@ -5,6 +5,7 @@
 	import Hero from '$lib/Hero.svelte';
 	import Pricing from '$lib/Pricing.svelte';
 	import Testimonials from '$lib/Testimonials.svelte';
+	import Portfolio from '$lib/Portfolio.svelte';
 	import WhyUs from '$lib/Why-us.svelte';
 </script>
 
@@ -13,14 +14,21 @@
 <WhyUs/>
 <Pricing/>
 <div class="testimonials-wrapper"><Testimonials/></div>
+<div class="portfolio-wrapper"><Portfolio/></div>
 <Cta/>
 <Footer/>
 
 <style>
+	:global(*) {
+		outline: 1px dashed red;
+	}
 .testimonials-wrapper{
 	margin-left: 142px;
 	margin-right: 104px;
 	position: relative;
 }
+.portfolio-wrapper{
+margin: 120px;
 
+}
 </style>
