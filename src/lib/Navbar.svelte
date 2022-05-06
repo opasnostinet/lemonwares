@@ -9,7 +9,7 @@
 		<li>Account</li>
 	</ul>
 
-	<img src="icon/phone.svg" alt="pnone" style="width:20px" />
+	<img class="phone" src="icon/phone.svg" alt="phone" style="width:20px" />
 	<a href="tel:+2349067322844">+2349067322844</a>
 </nav>
 
@@ -18,6 +18,9 @@
 		display: flex;
 		margin: 40px 110px;
 		align-items: center;
+		font-weight: 600;
+		font-size: 15px;
+		line-height: 22px;
 	}
 
 	ul {
@@ -26,6 +29,7 @@
 		list-style-type: none;
 		padding: 0;
 		gap: 4.4%;
+		
 	}
 
 	ul li:first-child {
@@ -36,7 +40,42 @@
 		margin-left: auto;
 	}
 
+	ul:after {
+		height: 21px;
+		width: 2px;
+		background-color: #dad8d8;
+		display: block;
+		content: '';
+		margin-right: 43px;
+	}
+
+	li:hover:after{
+		content: "";
+    width: 80%;
+    height: 2px;
+    background: #B00000;
+    display: block;
+		position: absolute;
+    bottom: -5px;
+    left: 10%;
+	}
+
+
+	li{
+		flex-shrink: 0;
+		position: relative;
+	}
+
 	.logo {
 		display: block;
+		margin-right: 65px;
+	}
+
+	a {
+		text-decoration: none;
+		color: #000000;
+	}
+	.phone{
+		margin-right: 6px;
 	}
 </style>
