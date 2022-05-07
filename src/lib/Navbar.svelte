@@ -29,7 +29,6 @@
 		list-style-type: none;
 		padding: 0;
 		gap: 4.4%;
-		
 	}
 
 	ul li:first-child {
@@ -49,19 +48,18 @@
 		margin-right: 43px;
 	}
 
-	li:hover:after{
-		content: "";
-    width: 80%;
-    height: 2px;
-    background: #B00000;
-    display: block;
+	li:hover:after {
+		content: '';
+		width: 80%;
+		height: 2px;
+		background: #b00000;
+		display: block;
 		position: absolute;
-    bottom: -5px;
-    left: 10%;
+		bottom: -5px;
+		left: 10%;
 	}
 
-
-	li{
+	li {
 		flex-shrink: 0;
 		position: relative;
 	}
@@ -75,7 +73,7 @@
 		text-decoration: none;
 		color: #000000;
 	}
-	.phone{
+	.phone {
 		margin-right: 6px;
 	}
 </style>

@@ -1,3 +1,7 @@
+<script>
+	import Button from './Button.svelte';
+</script>
+
 <section>
 	<div>
 		<ul>
@@ -12,8 +16,10 @@
 			Blazing fast web hosting for individuals and businesses of all sizes backed by 24x7x365
 			Support.
 		</p>
-		<button>Create an Account</button>
-		<button>Choose your plan</button>
+		<div class="buttons">
+			<Button>Create an Account</Button>
+			<Button secondary={true}>Choose your plan</Button>
+		</div>
 	</div>
 	<img src="/logo/person-with-notebook.png" alt="person-with-notebook" />
 </section>
@@ -22,18 +28,74 @@
 	ul {
 		display: flex;
 		list-style-type: none;
-    margin: 0;
+		margin: 0;
+		padding: 0;
+		font-weight: 600;
+		font-size: 15px;
+		line-height: 22px;
+		gap: 15px;
+		color: #d6d4d4e0;
+		position: relative;
 	}
 
+	ul:after {
+		display: block;
+		content: '';
+		background: #d6d4d4e0;
+		height: 2px;
+		position: absolute;
+		width: 67%;
+		bottom: -4px;
+		left: 5px;
+	}
+	ul li:first-child {
+		color: #b00000;
+	}
+
+	li:hover:after {
+		content: '';
+		width: 80%;
+		height: 2px;
+		background: #b00000;
+		display: block;
+		position: absolute;
+		bottom: -4px;
+		left: 10%;
+		z-index: 1;
+	}
+	li {
+		flex-shrink: 0;
+		position: relative;
+	}
 	img {
-    width: 35%;
-    height: 100%;
+		width: 35%;
+		height: 100%;
 	}
 
-  section{
-    display: flex;
-    margin: 50px 110px;
-    gap: 50px;
-  }
+	section {
+		display: flex;
+		margin: 50px 110px;
+		gap: 50px;
+	}
 
+	h1 {
+		font-weight: 700;
+		font-size: 64px;
+		line-height: 78px;
+		margin: 26px 0 34px;
+	}
+
+	p {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 28px;
+		color: #808080;
+		margin-bottom: 60px;
+		width: 73%;
+	}
+
+	.buttons {
+		display: flex;
+		gap: 24px;
+	}
 </style>
