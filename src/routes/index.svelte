@@ -22,6 +22,7 @@
 	:global(*) {
 		outline: 1px dashed red;
 	}
+	
 	.testimonials-wrapper {
 		margin-left: 142px;
 		margin-right: 104px;

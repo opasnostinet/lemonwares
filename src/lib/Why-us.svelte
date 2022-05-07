@@ -1,5 +1,5 @@
 <section>
-	<div>
+	<div class="description">
 		<h2>True Cloud Web Hosting</h2>
 		<p>
 			True Cloud Web Hosting All of the hosting packages we offer are deployed instantly on our SSD
@@ -56,30 +56,64 @@
 	section {
 		display: flex;
 		margin: 80px 76px;
-		gap: 20px;
+		gap: 100px;
 	}
 
+	h2 {
+		font-weight: 800;
+		font-size: 48px;
+		line-height: 64px;
+	}
+
+	h4 {
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 30px;
+		margin: 20px auto 6px;
+	}
+
+	.description {
+		width: 46%;
+	}
+
+	.description p {
+		color: #18191f;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 32px;
+	}
 	.advantages {
 		display: flex;
 		list-style-type: none;
 		margin: 0;
 		text-align: center;
-		gap: 20px;
+		gap: 60px;
+		justify-content: center;
+		padding: 0;
+
 	}
 
 	.advantages_item {
-		gap: 20px;
+		max-width: 270px
 	}
-.advantages_img{
-width: 100px;
-
-}
+	.advantages_img {
+		width: 100px;
+	}
 
 	.partners {
 		display: grid;
-		grid-template-columns: auto auto;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 70px;
 		grid-auto-rows: 50px;
-		gap: 1em;
+		gap: 3em 4em;
 		align-items: center;
+		align-content: center;
+	}
+
+	.advantages_description {
+		font-weight: 300;
+		font-size: 12px;
+		line-height: 18px;
+		text-align: center;
 	}
 </style>
