@@ -67,7 +67,8 @@
 
 <section class="wrapper">
 	<h2>Ready to get started with Lemon Wares?</h2>
-	<Toggler option1="Monthly" option2="Yearly" small="30% discount" />
+	<p>Choose the package that suits you</p>
+	<div class="toggler_wrapper"><Toggler option1="Monthly" option2="Yearly" small="30% discount" /></div>
 	<div class="tab-group-wrapper">
 		<TabGroup tabNames={['Basic', 'Premium']} />
 	</div>
@@ -79,6 +80,20 @@
 </section>
 
 <style>
+	h2 {
+		font-weight: 600;
+		font-size: 50px;
+		line-height: 60px;
+		max-width: 650px;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	p {
+		font-weight: 400;
+		font-size: 25px;
+		line-height: 25px;
+		margin: 35px auto 55px;
+	}
 	.wrapper {
 		display: flex;
 		justify-content: center;
@@ -86,6 +101,9 @@
 		flex-direction: column;
 		margin: 5%;
 	}
+.toggler_wrapper{
+	margin-bottom: 85px;
+}
 
 	.tab-group-wrapper {
 		width: 80%;
@@ -94,6 +112,6 @@
 
 	.tariff-wrapper {
 		display: flex;
-		gap: 40px;
+		gap: 100px;
 	}
 </style>

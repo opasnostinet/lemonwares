@@ -1,7 +1,7 @@
 <script>
 	export let tabNames = [];
 	let activeTab = 'Premium';
-	
+
 	function onClick(event) {
 		activeTab = event.target.textContent.trim();
 	}
@@ -28,6 +28,9 @@
 		text-align: center;
 		position: relative;
 		cursor: pointer;
+		font-weight: 600;
+		font-size: 30px;
+		line-height: 40px;
 	}
 	.tab-group_item--active::after {
 		content: '';

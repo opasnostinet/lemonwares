@@ -69,5 +69,6 @@
 		padding: 5px;
 		background-color: #ffe87a;
 		border-radius: 8px;
+		font-size: 10px;
 	}
 </style>
