@@ -2,9 +2,8 @@
 	<div>
 		<img class="logo" src="logo/logo.png" alt="logo" />
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolores perferendis doloremque
-			odio assumenda natus a molestias, expedita aliquam illo accusantium tenetur ad unde mollitia
-			fugit blanditiis porro, sequi delectus?
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+			venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elem
 		</p>
 	</div>
 	<ul>
@@ -40,15 +39,16 @@
 <style>
 	.footer {
 		background: #b00000;
-		padding: 60px 9% 80px;
-		gap: 96px 8%;
+		padding: 70px 3% 80px;
+		gap: 66px 8%;
 		color: white;
 		display: grid;
-		grid-template-columns: 20% 1fr 1fr 1fr 1fr;
+		grid-template-columns: 290px 1fr 1fr 1fr 1fr;
 	}
 
 	.copyright {
 		grid-column-end: span 5;
+		font-family: 'Inter';
 	}
 
 	.copyright img {
@@ -57,18 +57,37 @@
 		vertical-align: text-bottom;
 	}
 
-	.logo{
+	.logo {
 		filter: brightness(0) contrast(2) invert(1);
+		width: 121px;
 	}
 
-	ul{
+	p {
+		font-family: inter;
+		line-height: 32px;
+		color: #e6e6e6;
+	}
+
+	li {
+		font-family: 'Inter';
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 32px;
+		color: #e6e6e6;
+		margin-bottom: 24px;
+	}
+
+	ul {
 		list-style-type: none;
+		padding: 0;
 	}
 
-	a{
+	a {
 		text-decoration: none;
-		color:#E6E6E6;
+		color: #e6e6e6;
+	}
 
-
+	b {
+		color: #ffffff;
 	}
 </style>

@@ -29,7 +29,7 @@
 		position: relative;
 	}
 	.portfolio-wrapper {
-		margin: 120px;
+		margin: 84px 106px 110px 140px;
 	}
 
 	.call-to-action-wrapper {

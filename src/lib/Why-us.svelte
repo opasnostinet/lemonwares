@@ -56,13 +56,14 @@
 	section {
 		display: flex;
 		margin: 80px 76px;
-		gap: 100px;
+		gap: 70px;
 	}
 
 	h2 {
 		font-weight: 800;
 		font-size: 48px;
 		line-height: 64px;
+		font-family: Inter;
 	}
 
 	h4 {
@@ -105,7 +106,8 @@
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 70px;
 		grid-auto-rows: 50px;
-		gap: 3em 4em;
+		gap: 65px 50px;
+		flex-shrink: 0;
 		align-items: center;
 		align-content: center;
 	}

@@ -16,7 +16,7 @@
 <style>
 	nav {
 		display: flex;
-		margin: 40px 110px;
+		margin: 40px 190px 40px 110px;
 		align-items: center;
 		font-weight: 600;
 		font-size: 15px;

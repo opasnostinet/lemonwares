@@ -17,7 +17,7 @@
 	.portfolio {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: 22%;
+		gap: 16%;
 	}
 
 	.clients {
@@ -26,5 +26,17 @@
 		gap: 10px;
 		align-items: center;
 		justify-items: center;
+	}
+
+	h2 {
+		font-weight: 800;
+		font-size: 48px;
+		line-height: 64px;
+		color: #18191f;
+		margin-bottom: 8px;
+	}
+
+	p {
+		color: #18191f;
 	}
 </style>

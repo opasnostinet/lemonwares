@@ -31,6 +31,10 @@
 		margin-top: 0;
 		margin-bottom: 40px;
 		text-align: center;
+		font-weight: 600;
+		font-size: 64px;
+		line-height: 88px;
+		color: #2e2e2e;
 	}
 
 	.whatsapp-icon {
@@ -43,12 +47,12 @@
 	}
 
 	.triangle-1 {
-		right: -10px;
+		right: -15px;
 		bottom: 30px;
 	}
 
 	.triangle-2 {
-		left: -5px;
+		left: -10px;
 		bottom: 70px;
 		transform: scaleX(-1);
 		width: 40px;

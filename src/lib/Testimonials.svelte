@@ -2,7 +2,7 @@
 	<article class="quote">
 		<img class="quote-mark" src="quote-mark.svg" alt="quotes" />
 		<h2>Real Stories from Real Customers</h2>
-		<div>Get inspired by these stories.</div>
+		<span>Get inspired by these stories.</span>
 	</article>
 	<article class="quote">
 		<img src="logo/crypto-learn-invest.png" alt="CLI" />
@@ -13,7 +13,7 @@
 				labore praesentium? Dolorem ipsam rerum enim.
 			</p>
 			<cite>Floyd Miles</cite>
-			<div>Vice President, CLI</div>
+			<div class="author">Vice President, CLI</div>
 		</blockquote>
 	</article>
 	<article class="quote">
@@ -25,7 +25,7 @@
 				labore praesentium? Dolorem ipsam rerum enim.
 			</p>
 			<cite>Jane Cooper</cite>
-			<div>SEO, JPNL</div>
+			<div class="author">SEO, JPNL</div>
 		</blockquote>
 	</article>
 	<article class="quote">
@@ -33,11 +33,10 @@
 		<blockquote>
 			<p>LemonWares saved our time in Hosting my company page.</p>
 			<cite>Kristin Watson</cite>
-			<div>Co-Founder, LeeveOn Branding</div>
+			<div class="author">Co-Founder, LeeveOn Branding</div>
 		</blockquote>
 	</article>
 </div>
-
 
 <style>
 	img {
@@ -45,9 +44,38 @@
 	}
 
 	p {
-		margin: 0;
+		margin: 0 0 24px;
 	}
 
+	h2 {
+		font-weight: 800;
+		font-size: 48px;
+		line-height: 64px;
+		color: #18191f;
+		margin-bottom: 8px;
+	}
+
+	span {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 32px;
+		color: #18191f;
+	}
+
+	cite {
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 28px;
+		font-style: normal;
+		color: #18191f;
+	}
+
+	.author {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 24px;
+		color: #969bab;
+	}
 	blockquote {
 		margin: 0;
 	}
@@ -57,7 +85,7 @@
 		flex-wrap: wrap;
 		gap: 0 30px;
 		align-content: center;
-		max-height: 720px;
+		max-height: 818px;
 	}
 
 	@media (max-width: 970px) {
@@ -71,11 +99,14 @@
 		max-width: 445px;
 		padding: 32px 32px 32px 64px;
 		box-sizing: border-box;
+		box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+		border-radius: 8px;
 	}
 
 	.quote:first-child {
 		padding: initial;
 		position: relative;
+		box-shadow: none;
 	}
 
 	.quote:first-child h2 {
@@ -94,6 +125,7 @@
 
 	.quote:nth-child(3) {
 		margin-top: 50px;
+		margin-bottom: 34px;
 	}
 
 	.quote-mark {
@@ -101,6 +133,4 @@
 		top: -25px;
 		left: -95px;
 	}
-
-
 </style>

@@ -21,7 +21,15 @@
 			<Button secondary={true}>Choose your plan</Button>
 		</div>
 	</div>
-	<img src="/logo/person-with-notebook.png" alt="person-with-notebook" />
+
+	<div class="img-wrapper">
+		<div class="img-sub-wrapper">
+			<img class="hero" src="/logo/person-with-notebook.png" alt="person-with-notebook" />
+			<img class="triangle triangle-1" src="icon/triangle.svg" alt="" />
+			<img class="triangle triangle-2" src="icon/triangle.svg" alt="" />
+			<img class="triangle triangle-3" src="icon/triangle.svg" alt="" />
+		</div>
+	</div>
 </section>
 
 <style>
@@ -67,9 +75,17 @@
 		flex-shrink: 0;
 		position: relative;
 	}
-	img {
-		width: 35%;
-		height: 100%;
+	.hero {
+		display: block;
+		width: 100%;
+	}
+
+	.img-wrapper {
+		width: 80%;
+	}
+
+	.img-sub-wrapper {
+		position: relative;
 	}
 
 	section {
@@ -97,5 +113,31 @@
 	.buttons {
 		display: flex;
 		gap: 24px;
+	}
+
+	.triangle {
+		position: absolute;
+	}
+
+	.triangle-1 {
+		right: -7%;
+    bottom: 8%;
+    width: 14%;
+    height: 14%;
+	}
+
+	.triangle-2 {
+		left: -5%;
+		bottom: 33%;
+		transform: scaleX(-1);
+		width: 8%;
+		height: 8%;
+	}
+
+	.triangle-3 {
+		top: 11%;
+		left: 97%;
+		width: 8%;
+		height: 8%;
 	}
 </style>
