@@ -75,6 +75,7 @@
 		line-height: 32px;
 		color: #e6e6e6;
 		margin-bottom: 24px;
+		white-space: nowrap;
 	}
 
 	ul {
