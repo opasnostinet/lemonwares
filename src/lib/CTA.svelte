@@ -4,7 +4,7 @@
 
 <section>
 	<h2>We're here to make your website awesome.</h2>
-	<a href="#">
+	<a href="/">
 		<Button>
 			<img class="whatsapp-icon" src="icon/whats-up.svg" alt="whatsapp" />
 			<span>Get in touch with us</span>

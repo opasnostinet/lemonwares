@@ -7,29 +7,29 @@
 		</p>
 	</div>
 	<ul>
-		<li><a href="#"><b>Service</b> </a></li>
-		<li><a href="#">Domain</a></li>
-		<li><a href="#">Shared Hosting</a></li>
-		<li><a href="#">Cloud Hosting</a></li>
-		<li><a href="#">Private Hosting</a></li>
+		<li><a href="/"><b>Service</b> </a></li>
+		<li><a href="/">Domain</a></li>
+		<li><a href="/">Shared Hosting</a></li>
+		<li><a href="/">Cloud Hosting</a></li>
+		<li><a href="/">Private Hosting</a></li>
 	</ul>
 	<ul>
-		<li><a href="#"><b>Hosting</b> </a></li>
-		<li><a href="#">Cheap Hosting</a></li>
-		<li><a href="#">Hosting Wordpress</a></li>
-		<li><a href="#">Email Hosting</a></li>
-		<li><a href="#">Hosting Unlimited</a></li>
+		<li><a href="/"><b>Hosting</b></a></li>
+		<li><a href="/">Cheap Hosting</a></li>
+		<li><a href="/">Hosting Wordpress</a></li>
+		<li><a href="/">Email Hosting</a></li>
+		<li><a href="/">Hosting Unlimited</a></li>
 	</ul>
 	<ul>
-		<li><a href="#"><b>Company</b> </a></li>
-		<li><a href="#">About</a></li>
-		<li><a href="#">Career</a></li>
-		<li><a href="#">Contact Us</a></li>
+		<li><a href="/"><b>Company</b> </a></li>
+		<li><a href="/">About</a></li>
+		<li><a href="/">Career</a></li>
+		<li><a href="/">Contact Us</a></li>
 	</ul>
 	<ul>
-		<li><a href="#"><b>Help</b></a></li>
-		<li><a href="#">FAQ</a></li>
-		<li><a href="#">Help Support</a></li>
+		<li><a href="/"><b>Help</b></a></li>
+		<li><a href="/">FAQ</a></li>
+		<li><a href="/">Help Support</a></li>
 	</ul>
 	<div class="copyright">
 		Built by Jeremiah with <img src="icon/heart.svg" alt="love" /> in Lagos. Copyright 2021

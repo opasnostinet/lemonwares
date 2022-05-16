@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type TariffModel from '../models/tariff';
-	import Button from './Button.svelte';
+	import Button from '$lib/Button.svelte';
 
 	export let tariff: TariffModel;
 </script>
