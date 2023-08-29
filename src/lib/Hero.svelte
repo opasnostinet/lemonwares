@@ -121,9 +121,9 @@
 
 	.triangle-1 {
 		right: -7%;
-    bottom: 8%;
-    width: 14%;
-    height: 14%;
+		bottom: 8%;
+		width: 14%;
+		height: 14%;
 	}
 
 	.triangle-2 {
@@ -139,5 +139,40 @@
 		left: 97%;
 		width: 8%;
 		height: 8%;
+	}
+
+	@media (max-width: 1050px) {
+		.img-wrapper {
+			display: none;
+		}
+
+		h1 {
+			font-weight: 700;
+			font-size: 39px;
+			line-height: initial;
+		}
+
+		section {
+			margin: 25px 55px;
+		}
+	}
+
+	@media (max-width: 650px) {
+		section {
+			margin: 25px 25px;
+		}
+
+		.buttons {
+			flex-direction: column;
+		}
+
+		h1 {
+			margin: 14px 0 20px;
+			font-size: 29px;
+		}
+
+		p {
+			margin-bottom: 20px;
+		}
 	}
 </style>
