@@ -115,7 +115,8 @@
 	.overlay {
 		background-color: hsla(0, 0%, 7%, 0.36);
 		backdrop-filter: blur(4px);
-		position: absolute;
+		position: fixed;
+		z-index: 1;
 		top: 0;
 		left: 0;
 		width: 100vw;
@@ -191,13 +192,12 @@
 		}
 	}
 
-	@media (max-width: 400px){
-
-		.mobile-title{
+	@media (max-width: 400px) {
+		.mobile-title {
 			font-size: 20px;
 		}
 
-		nav{
+		nav {
 			margin: 10px;
 		}
 	}
