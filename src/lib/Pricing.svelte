@@ -68,7 +68,9 @@
 <section class="wrapper">
 	<h2>Ready to get started with Lemon Wares?</h2>
 	<p>Choose the package that suits you</p>
-	<div class="toggler_wrapper"><Toggler option1="Monthly" option2="Yearly" small="30% discount" /></div>
+	<div class="toggler_wrapper">
+		<Toggler option1="Monthly" option2="Yearly" small="30% discount" />
+	</div>
 	<div class="tab-group-wrapper">
 		<TabGroup tabNames={['Basic', 'Premium']} />
 	</div>
@@ -92,7 +94,7 @@
 		font-weight: 400;
 		font-size: 25px;
 		line-height: 25px;
-		margin: 35px auto 55px;
+		margin-bottom: 25px;
 	}
 	.wrapper {
 		display: flex;
@@ -100,18 +102,46 @@
 		align-items: center;
 		flex-direction: column;
 		margin: 5%;
+		gap: 35px;
 	}
-.toggler_wrapper{
-	margin-bottom: 85px;
-}
+	.toggler_wrapper {
+		margin-bottom: 50px;
+	}
 
 	.tab-group-wrapper {
 		width: 80%;
-		margin-bottom: 40px;
+		margin-bottom: 5px;
 	}
 
 	.tariff-wrapper {
 		display: flex;
 		gap: 100px;
+	}
+
+	@media (max-width: 1200px) {
+		.tariff-wrapper {
+			gap: 5%;
+			align-items: center;
+		}
+		.tab-group-wrapper {
+			display: none;
+		}
+		.toggler_wrapper {
+			margin-bottom: 20px;
+		}
+	}
+	@media (max-width: 900px) {
+		.tariff-wrapper {
+			flex-direction: column;
+			gap: 50px;
+		}
+
+		.wrapper {
+			gap: 10px;
+		}
+		h2 {
+			margin: 0;
+			font-size: 40px;
+		}
 	}
 </style>
