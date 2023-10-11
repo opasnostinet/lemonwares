@@ -69,4 +69,25 @@
 		text-decoration: none;
 		cursor: pointer;
 	}
+
+	@media (max-width: 1100px) {
+		h2 {
+			font-size: 50px;
+			line-height: 65px;
+		}
+	}
+
+	@media (max-width: 900px) {
+		h2 {
+			font-size: 25px;
+			line-height: 30px;
+			margin-bottom: 15px;
+		}
+		section {
+			padding: 3% 0%;
+		}
+		img {
+			display: none;
+		}
+	}
 </style>
