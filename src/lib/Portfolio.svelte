@@ -39,4 +39,24 @@
 	p {
 		color: #18191f;
 	}
+
+	@media (max-width: 1000px) {
+		.portfolio {
+			grid-template-columns: 1fr;
+			gap: 5%;
+		}
+
+		h2 {
+			font-size: 38px;
+			line-height: 54px;
+		}
+	}
+
+	@media (max-width: 750px) {
+		h2 {
+			font-size: 28px;
+			text-align: center;
+			line-height: 35px;
+		}
+	}
 </style>
