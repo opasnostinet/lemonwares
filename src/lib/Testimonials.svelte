@@ -87,13 +87,6 @@
 		align-content: center;
 		max-height: 818px;
 	}
-
-	@media (max-width: 970px) {
-		.quotes {
-			max-height: initial;
-		}
-	}
-
 	.quote {
 		line-height: 32px;
 		max-width: 445px;
@@ -132,5 +125,45 @@
 		position: absolute;
 		top: -25px;
 		left: -95px;
+	}
+
+	@media (max-width: 1100px) {
+		.quotes {
+			max-height: initial;
+		}
+		.quote {
+			max-width: initial;
+			padding: 32px;
+		}
+		.quote:nth-child(2),
+		.quote:nth-child(4) {
+			max-width: initial;
+		}
+		.quote:first-child h2 {
+			font-size: 35px;
+		}
+	}
+
+	@media (max-width: 970px) {
+		.quotes {
+			max-height: initial;
+		}
+		.quote {
+			padding: 1em;
+		}
+	}
+
+	@media (max-width: 900px) {
+		.quote-mark {
+			display: none;
+		}
+
+		.quote:first-child h2 {
+			line-height: 45px;
+		}
+
+		.quote {
+			line-height: 25px;
+		}
 	}
 </style>
