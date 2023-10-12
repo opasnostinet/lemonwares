@@ -22,7 +22,7 @@
 	:global(*) {
 		outline: 1px dashed red;
 	}
-	
+
 	.testimonials-wrapper {
 		margin-left: 142px;
 		margin-right: 104px;
@@ -34,5 +34,29 @@
 
 	.call-to-action-wrapper {
 		margin: 80px;
+	}
+
+	@media (max-width: 900px) {
+		.testimonials-wrapper {
+			margin-left: 11%;
+			margin-right: 11%;
+		}
+	}
+
+	@media (max-width: 650px) {
+		.testimonials-wrapper {
+			margin-left: 8%;
+			margin-right: 8%;
+		}
+	}
+	@media (max-width: 800px) {
+		.portfolio-wrapper {
+			margin: 3%;
+		}
+	}
+	@media (max-width: 1100px) {
+		.call-to-action-wrapper {
+			margin: 3%;
+		}
 	}
 </style>
