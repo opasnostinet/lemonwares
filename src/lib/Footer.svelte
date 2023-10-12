@@ -1,5 +1,5 @@
 <div class="footer">
-	<div>
+	<div class="about">
 		<img class="logo" src="logo/logo.png" alt="logo" />
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
@@ -90,5 +90,34 @@
 
 	b {
 		color: #ffffff;
+	}
+
+	@media (max-width: 1200px) {
+		.footer {
+			grid-template-columns: repeat(4, 1fr);
+			padding: 3%;
+			gap: 1% 4%;
+		}
+
+		.copyright {
+			grid-column-end: span 4;
+		}
+
+		.about {
+			grid-column-start: span 4;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.footer {
+			padding: 3%;
+			gap: 1% 4%;
+			grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+		}
+
+		.copyright,
+		.about {
+			grid-column: 1/-1;
+		}
 	}
 </style>
