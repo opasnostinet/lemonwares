@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type TariffModel from '../models/tariff';
-	import Button from '$lib/Button.svelte';
+	import type TariffModel from "../models/tariff";
+	import Button from "$lib/Button.svelte";
 
 	export let tariff: TariffModel;
 	let isExpanded = false;
@@ -13,9 +13,9 @@
 	<div class="period">{tariff.period}</div>
 	<Button secondary={true} width="100%">{tariff.buttonText}</Button>
 	<button class="expand" on:click={() => (isExpanded = !isExpanded)}>
-		{isExpanded ? 'collapse' : 'expand'}
+		{isExpanded ? "collapse" : "expand"}
 		<svg
-			style:transform={isExpanded ? 'scale(-1)' : ''}
+			style:transform={isExpanded ? "scale(-1)" : ""}
 			class="chevrone"
 			viewBox="0 0 10 5"
 			fill="none"
@@ -48,7 +48,7 @@
 	ul {
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-		list-style-image: url(./check.svg);
+		list-style-image: url(/check.svg);
 		margin-top: 15px;
 		margin-bottom: initial;
 		line-height: 35px;
