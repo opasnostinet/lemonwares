@@ -1,5 +1,5 @@
 <script>
-	import Button from './Button.svelte';
+	import Button from "./Button.svelte";
 </script>
 
 <section>
@@ -13,8 +13,8 @@
 
 		<h1>Premium Web Hosting for Your Website</h1>
 		<p>
-			Blazing fast web hosting for individuals and businesses of all sizes backed by 24x7x365
-			Support.
+			Blazing fast web hosting for individuals and businesses of all sizes
+			backed by 24x7x365 Support.
 		</p>
 		<div class="buttons">
 			<Button>Create an Account</Button>
@@ -24,7 +24,11 @@
 
 	<div class="img-wrapper">
 		<div class="img-sub-wrapper">
-			<img class="hero" src="/logo/person-with-notebook.png" alt="person-with-notebook" />
+			<img
+				class="hero"
+				src="person-with-notebook.png"
+				alt="person-with-notebook"
+			/>
 			<img class="triangle triangle-1" src="icon/triangle.svg" alt="" />
 			<img class="triangle triangle-2" src="icon/triangle.svg" alt="" />
 			<img class="triangle triangle-3" src="icon/triangle.svg" alt="" />
@@ -48,7 +52,7 @@
 
 	ul:after {
 		display: block;
-		content: '';
+		content: "";
 		background: #d6d4d4e0;
 		height: 2px;
 		position: absolute;
@@ -61,7 +65,7 @@
 	}
 
 	li:hover:after {
-		content: '';
+		content: "";
 		width: 80%;
 		height: 2px;
 		background: #b00000;
