@@ -26,7 +26,7 @@
 	<button class="menu-button" on:click={openMenu}>
 		<img class="menu-icon" src="icon/menu.svg" alt="menu" />
 	</button>
-	<div class="overlay overlay--active" class:overlay--active={isMenuVisible}>
+	<div class="overlay" class:overlay--active={isMenuVisible}>
 		<div class="menu">
 			<ul class="mobile-links">
 				<li><a href="/">Our Services</a></li>
