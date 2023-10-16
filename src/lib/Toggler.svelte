@@ -6,9 +6,9 @@
 
 <label class="switch">
 	<input type="checkbox" />
-  {option1}
+	{option1}
 	<div class="slider round" />
-  {option2}
+	{option2}
 	<small>{small}</small>
 </label>
 
@@ -70,5 +70,25 @@
 		background-color: #ffe87a;
 		border-radius: 8px;
 		font-size: 10px;
+	}
+
+	@media (max-width: 900px) {
+		.slider {
+			width: 69px;
+			height: 35px;
+			border-radius: 34px;
+			flex-shrink: 0;
+		}
+		.slider:before {
+			height: 20px;
+			width: 20px;
+			bottom: 8px;
+		}
+		input:checked + .slider:before {
+			transform: translateX(27px);
+		}
+		.switch {
+			gap: 10px;
+		}
 	}
 </style>

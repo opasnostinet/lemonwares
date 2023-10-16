@@ -31,6 +31,7 @@
 		font-weight: 600;
 		font-size: 30px;
 		line-height: 40px;
+		width: 50%;
 	}
 	.tab-group_item--active::after {
 		content: '';
@@ -39,5 +40,12 @@
 		width: 100%;
 		background-color: #b00000;
 		position: absolute;
+	}
+
+	@media (max-width: 900px) {
+		.tab-group_item {
+			font-size: 26px;
+			line-height: 40px;
+		}
 	}
 </style>

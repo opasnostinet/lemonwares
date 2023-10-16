@@ -1,7 +1,7 @@
 <section>
 	<div class="description">
 		<h2>True Cloud Web Hosting</h2>
-		<p>
+		<p class="description_about">
 			True Cloud Web Hosting All of the hosting packages we offer are deployed instantly on our SSD
 			powered cloud. We don't use dedicated servers that operate on single pieces of hardware. Our
 			entire infrastructure is built to be reliable, secure, and scalable.
@@ -77,7 +77,7 @@
 		width: 46%;
 	}
 
-	.description p {
+	.description_about {
 		color: #18191f;
 		font-weight: 400;
 		font-size: 18px;
@@ -134,7 +134,7 @@
 		}
 
 		h2 {
-			font-size: 29px;
+			font-size: 26px;
 			font-weight: 700;
 			line-height: initial;
 		}
@@ -151,6 +151,29 @@
 
 		.partners {
 			gap: 10px 15px;
+		}
+	}
+
+	@media (max-width: 1200px) {
+		.advantages {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			justify-items: center;
+			margin: 0 10%;
+		}
+	}
+
+	@media (max-width: 900px) {
+		.description_about {
+			font-size: 16px;
+			line-height: 28px;
+		}
+	}
+
+	@media (max-width: 700px) {
+		.advantages {
+			display: grid;
+			grid-template-columns: repeat(1, 1fr);
 		}
 	}
 </style>

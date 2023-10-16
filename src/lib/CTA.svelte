@@ -79,9 +79,9 @@
 
 	@media (max-width: 900px) {
 		h2 {
-			font-size: 25px;
-			line-height: 30px;
 			margin-bottom: 15px;
+			font-size: 26px;
+			line-height: 40px;
 		}
 		section {
 			padding: 3% 0%;

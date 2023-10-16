@@ -156,6 +156,13 @@
 			margin: 25px 55px;
 		}
 	}
+	@media (max-width: 900px) {
+		h1 {
+			margin: 14px 0 20px;
+			font-size: 30px;
+			line-height: 40px;
+		}
+	}
 
 	@media (max-width: 650px) {
 		section {
@@ -166,13 +173,9 @@
 			flex-direction: column;
 		}
 
-		h1 {
-			margin: 14px 0 20px;
-			font-size: 29px;
-		}
-
 		p {
 			margin-bottom: 20px;
+			width: 100%;
 		}
 	}
 </style>

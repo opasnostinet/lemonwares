@@ -140,7 +140,8 @@
 			max-width: initial;
 		}
 		.quote:first-child h2 {
-			font-size: 35px;
+			font-size: 26px;
+			line-height: 40px;
 		}
 	}
 
@@ -164,6 +165,16 @@
 
 		.quote {
 			line-height: 25px;
+		}
+
+		h2 {
+			font-size: 26px;
+			line-height: 40px;
+		}
+
+		span {
+			font-size: 16px;
+			line-height: 28px;
 		}
 	}
 </style>

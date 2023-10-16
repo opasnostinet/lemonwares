@@ -22,10 +22,10 @@
 
 	.clients {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: repeat(3, minmax(60px, 120px));
 		gap: 10px;
 		align-items: center;
-		justify-items: center;
+		justify-content: center;
 	}
 
 	h2 {
@@ -38,6 +38,10 @@
 
 	p {
 		color: #18191f;
+	}
+
+	img {
+		width: 100%;
 	}
 
 	@media (max-width: 1000px) {
@@ -57,6 +61,17 @@
 			font-size: 28px;
 			text-align: center;
 			line-height: 35px;
+		}
+	}
+	@media (max-width: 900px) {
+		h2 {
+			font-size: 26px;
+			line-height: 40px;
+		}
+
+		p {
+			font-size: 16px;
+			line-height: 28px;
 		}
 	}
 </style>

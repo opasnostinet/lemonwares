@@ -110,6 +110,7 @@
 
 	.tab-group-wrapper {
 		width: 80%;
+		min-width: 13em;
 		margin-bottom: 5px;
 	}
 
@@ -123,9 +124,7 @@
 			gap: 5%;
 			align-items: center;
 		}
-		.tab-group-wrapper {
-			display: none;
-		}
+
 		.toggler_wrapper {
 			margin-bottom: 20px;
 		}
@@ -141,7 +140,12 @@
 		}
 		h2 {
 			margin: 0;
-			font-size: 40px;
+			font-size: 26px;
+			line-height: 40px;
+		}
+		p {
+			font-size: 16px;
+			line-height: 28px;
 		}
 	}
 </style>

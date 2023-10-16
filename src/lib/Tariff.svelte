@@ -119,6 +119,21 @@
 			padding: 0;
 		}
 	}
+	@media (max-width: 900px) {
+		h3 {
+			font-size: 24px;
+			line-height: 24px;
+		}
+		p,
+		.period {
+			font-size: 16px;
+			line-height: 28px;
+		}
+		.price {
+			font-size: 30px;
+			line-height: 32px;
+		}
+	}
 
 	@media (min-width: 900px) {
 		.expand {
@@ -127,8 +142,7 @@
 		.hidden {
 			display: block;
 		}
-	}
-	@media (max-width: 900px) {
+
 		ul {
 			margin: initial;
 		}
